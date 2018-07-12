@@ -1,13 +1,13 @@
 {
-  "name": "qunit-puppeteer",
-  "version": "1.0.1",
-  "description": "A test harness for running QUnit tests in headless Chromium",
+  "name": "qunit-puppet",
+  "version": "0.1.0",
+  "description": "A test harness for running QUnit tests in headless Chromium. A fork of qunit-puppeteer package with puppeteer kept up to date.",
   "bin": {
-    "qunit-puppeteer": "bin/qunit-puppeteer.js"
+    "qunit-puppet": "bin/qunit-puppet.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidtaylorhq/qunit-puppeteer.git"
+    "url": "git+https://github.com/dmarcautan/qunit-puppet.git"
   },
   "dependencies": {
     "puppeteer": "^1.5.0"
@@ -19,10 +19,10 @@
     "headless",
     "testing"
   ],
-  "author": "David Taylor",
+  "author": "Dmitry Marcautan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidtaylorhq/qunit-puppeteer/issues"
+    "url": "https://github.com/dmarcautan/qunit-puppet/issues"
   },
-  "homepage": "https://github.com/davidtaylorhq/qunit-puppeteer#readme"
+  "homepage": "https://github.com/dmarcautan/qunit-puppet#readme"
 }
